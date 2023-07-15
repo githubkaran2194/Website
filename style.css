@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(white, rgb(221, 244, 255), white);
+}
+/*Navbar */
+.section-nav li{
+    list-style: none;
+ margin: 0 20px;
+}
+.section-nav a {
+    text-decoration:none!important;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.section-nav a:hover {
+  color: grey;
+}
+
+/* Home */
+.home{
+    margin-top: 100px;
+}
+.home h1 b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: .6px;
+}
+.home p{
+    line-height: normal;
+    letter-spacing:.8px;
+    color: gray;
+}
+/*  */
+.section-home2 {
+    margin-top: 80px;
+}
+.section-home2 h1{
+    font-weight: 500;
+}
+.section-home2 p{
+    color: grey;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+.section-home2 .icon i {
+    font-size: 30px;
+ color: orangered;
+ margin-top: 20px;
+}
+/* services */
+.services{
+    margin-top: 70px;
+}
+.services p{
+font-size: 30px;
+font-weight: 600;
+color: gray;
+}
+.services .service-texts p::after{
+    content:'';
+    display: block;
+    height: 2px;
+    background:orangered;
+    width:  10%;
+    border-radius: 5px ;
+    margin: auto;
+
+}
+.services h1{
+    font-weight: 700;
+    font-style: italic;
+}
+.services .card{
+border-radius: 15px;
+text-align: center;
+margin-top: 30px;
+transition: 0.3s;
+cursor: pointer;
+}
+.services .card:hover{
+  transform: scale(1.1);
+}
+.services .card:hover::after{
+    content:'';
+    display: block;
+    height: 2px;
+    background:orangered;
+    width:  100%;
+    border-radius: 5px ;
+    margin: auto;
+  }
+.services .card h1{
+    font-size: larger;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    
+}
+.services .card p{
+    font-size: large;
+    font-weight: normal;
+}
+.services .card i{
+    color: orangered;
+    font-size: 40px;
+}
+/* brands */
+.brand .card{
+  height: 100%;
+  padding: 5px;
+  border: 0;
+  background: transparent;
+}
+.brand .card img{
+    border-radius: 5px;
+    max-height: 99%;
+    height: 100%;
+    transition: .3s;
+}
+.brand .card img:hover{
+   transform: scale(1.1);
+}
+
+/* news */
+.news{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.news h1{
+    text-align: center;
+    color: gray;
+}
+/* footer */
+
+.footer p i{
+    color: grey;
+}
+.footer p a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    font-weight: 700;
+}
+.footer p a:hover{
+    color: orangered;
+}
+.footer .social h1{
+    font-weight: 700;
+}
+.footer .social i{
+    cursor: pointer;
+}
+.footer .social i:hover{
+  color: orangered;
+}
